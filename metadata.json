@@ -1,0 +1,7 @@
+{
+  "name": "KIU ResearchHub — AI-Powered Research & FYP Repository",
+  "description": "Official research discovery and final year project repository for Karakoram International University (KIU), Gilgit-Baltistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
