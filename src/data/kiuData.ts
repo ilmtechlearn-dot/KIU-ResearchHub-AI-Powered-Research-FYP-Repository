@@ -1,4 +1,4 @@
-import { Faculty, Department, Researcher, ResearchTopic, ResearchItem } from '../types';
+import type { Faculty, Department, Researcher, ResearchTopic, ResearchItem } from '../types/index.ts';
 
 export const OFFICIAL_KIU_FACULTIES: Faculty[] = [
   {

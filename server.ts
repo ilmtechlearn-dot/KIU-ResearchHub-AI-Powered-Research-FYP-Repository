@@ -2,8 +2,8 @@ import express, { Request, Response } from 'express';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-import { db } from './src/server/db';
-import { askResearchRag, summarizeResearch, recommendFypTopics } from './src/server/gemini';
+import { db } from './src/server/db.ts';
+import { askResearchRag, summarizeResearch, recommendFypTopics } from './src/server/gemini.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

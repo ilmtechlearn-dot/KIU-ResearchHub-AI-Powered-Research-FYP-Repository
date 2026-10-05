@@ -1,4 +1,4 @@
-import {
+import type {
   ResearchItem,
   Faculty,
   Department,
@@ -6,13 +6,13 @@ import {
   AuditLog,
   VerificationStatus,
   SimilarProjectResult,
-} from '../types';
+} from '../types/index.ts';
 import {
   OFFICIAL_KIU_FACULTIES,
   OFFICIAL_KIU_DEPARTMENTS,
   OFFICIAL_KIU_RESEARCHERS,
   INITIAL_RESEARCH_DATABASE,
-} from '../data/kiuData';
+} from '../data/kiuData.ts';
 
 class ResearchHubDatabase {
   private research: ResearchItem[] = [];

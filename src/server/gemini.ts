@@ -1,6 +1,6 @@
 import { GoogleGenAI } from '@google/genai';
-import { db } from './db';
-import { ResearchItem, FypTopicRecommendation } from '../types';
+import { db } from './db.ts';
+import type { ResearchItem, FypTopicRecommendation } from '../types/index.ts';
 
 let genAI: GoogleGenAI | null = null;
 
